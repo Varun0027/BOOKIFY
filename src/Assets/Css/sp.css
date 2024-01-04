@@ -1,0 +1,36 @@
+.side-panel {
+  background-color: #333;
+  padding: 6px 6px 12px 6px;  /* Increased bottom padding to bring text down */
+  width: 100px;
+  height: 530px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-left: -55px;
+}
+
+.side-panel button {
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  line-height: inherit;
+  width: 100%;
+  text-align: left;
+}
+
+.side-panel button:hover {
+  background-color: #8238fa;
+}
+
+.side-panel button svg {
+  margin-right: 5px;
+}
+
+.side-panel a {
+  color: #ffffff;
+  text-decoration: none;  /* Removes underline from links */
+}
